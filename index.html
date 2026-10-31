@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bhumi Drishti | CUBESAT</title>
+<meta name="description" content="Official website of the Bhumi Drishti CubeSat Project by the students of IISER Bhopal.">
+<link rel="icon" href="bhumidrishtilogo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=IBM+Plex+Mono:wght@500;600&family=Playfair+Display:wght@700;900&display=swap">
+<link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+<div id="page">
+
+<header class="nav-bar">
+  <a class="brand" href="#top"><img src="bhumidrishtilogo.png" alt="Bhumi Drishti CubeSat project IISER logo"><span>Bhumi Drishti <em>CubeSat</em></span></a>
+  <button id="burger" class="burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="siteNav"><span></span><span></span><span></span></button>
+  <nav class="nav" id="siteNav">
+    <a href="#about">About</a><a href="#initiatives">Gallery</a><a href="#department">Department</a><a href="people.html">People</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-logo" aria-hidden="true"><img src="bhumidrishtilogo.png" alt=""></div>
+  <div class="wrap">
+    <div class="eyebrow">CubeSat</div>
+    <h1><span class="h1a">Bhumi</span><br><span class="h1a accent">Drishti.</span></h1>
+    <p class="lead">Origin Of The New Space Revolution.</p>
+    <a class="btn" href="#about">JOIN THE REVOLUTION →</a>
+  </div>
+  <div class="chart wrap" aria-hidden="true">
+    <i style="--bh:40%"></i><i style="--bh:58%"></i><i style="--bh:48%"></i><i style="--bh:76%"></i><i style="--bh:66%"></i><i style="--bh:92%"></i><i style="--bh:100%"></i>
+    <svg viewBox="0 0 1200 220" preserveAspectRatio="none"><path d="M0 190 C150 170 200 120 340 130 S560 60 700 80 S950 20 1200 6" fill="none" stroke-width="5" stroke-linecap="round"/></svg>
+  </div>
+</section>
+
+
+<section id="about" class="sec wrap about">
+  <div class="rv">
+    <div class="eyebrow red">ABOUT</div>
+    <h2>Where curiosity meet <mark>orbit.</mark></h2>
+  </div>
+  <div class="rv copy">
+    <p>The Bhumi Drishti Project is a student-led CubeSat initiative at IISER Bhopal dedicated to designing, building, and launching advanced nanosatellites for Earth observation and space research.</p>
+    <p>From CAD design and embedded systems development to real-time ground station communications and payload data processing, we build space systems from the ground up.</p>
+    <p>We are establishing core satellite concepts and engineering frameworks, setting the stage for practical hardware workshops and subsystem integration.</p>
+    <p class="slogan">Innovate. Simulate. Deploy.</p>
+  </div>
+</section>
+
+<section id="initiatives" class="sec band-accent">
+        <div class="wrap">
+          <div class="eyebrow rv">GALLERY</div>
+          <h2 class="big rv">Open House Day at IISER Bhopal</h2>
+          <p class="rv sub">Highlights and project demonstrations from Open House Day at IISER Bhopal.</p>
+          <div class="grid">
+            <div class="card rv k0" style="grid-column: 1 / -1; justify-self: center; max-width: 800px; width: 100%;">
+              <img src="openhouse01.png" alt="Bhumi Drishti CubeSat display at IISER Bhopal Open House Day" style="width: 100%; height: auto; border-radius: 6px;">
+            </div>
+            <div class="card rv k1">
+              <img src="openhouse02.png" alt="Open House Day exhibit photo 2" style="width: 100%; height: auto; border-radius: 6px;">
+            </div>
+            <div class="card rv k2">
+              <img src="openhouse03.png" alt="Open House Day exhibit photo 3" style="width: 100%; height: auto; border-radius: 6px;">
+            </div>
+          </div>
+      </section>
+
+<section id="department" class="sec band-dark">
+  <div class="wrap dept">
+   <div class="rv">
+          <div class="eyebrow gold">DEPARTMENT</div>
+          <h2>EECS at <span class="hot">IISER Bhopal</span></h2>
+          <p>Supporting advanced student projects and technical research, the department encourages practical engineering innovation from foundational design to hardware implementation.</p>
+          <p>It provides specialized training and research opportunities in computer science, electronics, signal processing, and space technology applications.</p>
+          <a class="btn alt" href="https://eecs.iiserb.ac.in/">OFFICIAL DEPARTMENT SITE →</a>
+        </div>
+      </div>
+    </section>
+</main>
+
+<footer id="contact" class="foot">
+      <div class="wrap">
+        <div class="rv hello">
+          <div class="big">Say hello.</div>
+          <img src="bhumidrishtilogo.png" alt="Bhumi Drishti project logo">
+        </div>
+        <div class="cols">
+          <div><strong>BHUMI-DRISHTI CUBESAT</strong><br>Indian Institute of Science Education and Research Bhopal<br>Bhopal Bypass Road, Bhauri, Madhya Pradesh 462066, India</div>
+          <div class="links">
+            <strong>Channels</strong>
+            <a href="mailto:bhumidrishti.official@gmail.com">bhumidrishti.official@gmail.com</a>
+            <a href="https://www.linkedin.com">LinkedIn</a>
+          </div>
+        </div>
+        <div class="legal">
+          <span>© 2026 Bhumi-Drishti CubeSat, IISER Bhopal</span>
+          <span>Design. Build. Orbit.</span>
+        </div>
+      </div>
+    </footer>
+</div>
+<script>
+/* Burger menu: self-contained so it works regardless of script.js version */
+(function () {
+  var burger = document.getElementById('burger');
+  var nav = document.getElementById('siteNav');
+  if (!burger || !nav) return;
+  function setMenu(open) {
+    burger.classList.toggle('open', open);
+    nav.classList.toggle('open', open);
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+    burger.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  }
+  burger.addEventListener('click', function () { setMenu(!nav.classList.contains('open')); });
+  nav.addEventListener('click', function (e) { if (e.target.closest && e.target.closest('a')) setMenu(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') setMenu(false); });
+  window.addEventListener('resize', function () { if (window.innerWidth > 800) setMenu(false); });
+})();
+</script>
+<script src="script.js?v=6"></script>
+</body>
+</html>
