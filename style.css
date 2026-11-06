@@ -61,12 +61,16 @@ h1,h2,h3{font-family:var(--fd);font-weight:var(--dw);letter-spacing:var(--tr);ma
     z-index: 1;
 }
 
-.hero-logo {
-  display: none;
+.hero-logo img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    animation: spin 40s linear infinite;
 }
 
 .hero .wrap {
-    position: absolute;
+    position: relative;
     z-index: 2;
 }
 
@@ -284,9 +288,3 @@ mark{background:var(--a);color:var(--d);padding:0 10px}
   .card:hover::before,.pcard:hover::before{transform:none}
 }
 
-/* Keep main hero top section dark green */
-main#ttp, 
-.band-dark {
-  background-color: #12261e;
-  color: #ffffff;
-}
