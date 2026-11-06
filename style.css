@@ -283,3 +283,16 @@ mark{background:var(--a);color:var(--d);padding:0 10px}
   .card:hover,.pcard:hover,.btn:hover{transform:none}
   .card:hover::before,.pcard:hover::before{transform:none}
 }
+
+/* ===== Hero Section Dark Green Theme ===== */
+main#top, 
+.band-dark {
+  background-color: #12261e;
+  color: #ffffff;
+}
+
+main#top h1, 
+main#top .lead, 
+main#top .eyebrow {
+  color: #ffffff;
+}
