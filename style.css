@@ -48,20 +48,6 @@ mark{background:var(--a);color:var(--d);padding:0 10px}
 .copy p{margin:0 0 20px}
 .copy .slogan{font-family:var(--fd);font-weight:var(--dw);font-size:32px;color:var(--p);margin:0}
 
-/* ===== Initiatives ===== */
-.band-accent{background:var(--a);color:var(--d)}
-.big{font-family:var(--fd);font-weight:var(--dw);font-size:clamp(48px,8vw,120px);line-height:.92;letter-spacing:var(--tr);margin:12px 0 16px}
-.sub{font-size:20px;max-width:620px;margin:0 0 56px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
-.card,.pcard{position:relative;isolation:isolate;border:var(--bw) solid var(--ink);transition:transform 200ms var(--eo)}
-.card::before,.pcard::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--sc);transition:transform 200ms var(--eo)}
-.card{padding:28px;min-height:230px;display:flex;flex-direction:column;gap:10px}
-.card small{font-family:var(--fm);font-weight:700;font-size:13px;letter-spacing:.14em}
-.card h3{font-size:30px;line-height:1}
-.card p{margin:0;font-size:16px;line-height:1.5}
-.k0{background:#fff;color:var(--ink)}.k1{background:var(--p);color:var(--pt)}.k2{background:var(--h);color:var(--ht)}.k3{background:var(--d);color:var(--a)}
-
-
 /* ===== Hero ===== */
 .hero {
     background: var(--p);
@@ -189,6 +175,22 @@ h1 {
     stroke-dashoffset: 1200;
     animation: draw 1800ms var(--eio) 500ms forwards;
 }
+
+/* ===== Initiatives ===== */
+.band-accent{background:var(--a);color:var(--d)}
+.big{font-family:var(--fd);font-weight:var(--dw);font-size:clamp(48px,8vw,120px);line-height:.92;letter-spacing:var(--tr);margin:12px 0 16px}
+.sub{font-size:20px;max-width:620px;margin:0 0 56px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px}
+.card,.pcard{position:relative;isolation:isolate;border:var(--bw) solid var(--ink);transition:transform 200ms var(--eo)}
+.card::before,.pcard::before{content:"";position:absolute;inset:0;z-index:-1;background:var(--sc);transition:transform 200ms var(--eo)}
+.card{padding:28px;min-height:230px;display:flex;flex-direction:column;gap:10px}
+.card small{font-family:var(--fm);font-weight:700;font-size:13px;letter-spacing:.14em}
+.card h3{font-size:30px;line-height:1}
+.card p{margin:0;font-size:16px;line-height:1.5}
+.k0{background:#fff;color:var(--ink)}.k1{background:var(--p);color:var(--pt)}.k2{background:var(--h);color:var(--ht)}.k3{background:var(--d);color:var(--a)}
+
+
+
 /* ===== Department ===== */
 .band-dark{background:var(--d);color:var(--dt)}
 .dept{display:flex;flex-wrap:wrap;gap:56px;align-items:center}
