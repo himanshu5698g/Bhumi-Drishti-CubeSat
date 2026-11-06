@@ -285,26 +285,8 @@ mark{background:var(--a);color:var(--d);padding:0 10px}
 }
 
 /* Keep main hero top section dark green */
-main#top, 
+main#ttp, 
 .band-dark {
   background-color: #12261e;
   color: #ffffff;
-}
-
-main#top h1, 
-main#top .lead, 
-main#top .eyebrow {
-  color: #ffffff;
-}
-
-/* White background specifically for About section */
-.band-light,
-#about {
-  background-color: #ffffff;
-  color: #1a1a1a;
-}
-
-#about h2,
-#about .copy p {
-  color: #1a1a1a;
 }
