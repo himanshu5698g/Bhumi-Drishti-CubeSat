@@ -39,15 +39,6 @@ h1,h2,h3{font-family:var(--fd);font-weight:var(--dw);letter-spacing:var(--tr);ma
 .burger.open span:nth-child(2){opacity:0}
 .burger.open span:nth-child(3){transform:translateY(-9px) rotate(-45deg)}
 
-/* ===== About ===== */
-.about{display:flex;flex-wrap:wrap;gap:56px}
-.about>div{flex:1 1 360px}
-h2{font-size:clamp(44px,6vw,96px);line-height:.95;margin-top:16px}
-mark{background:var(--a);color:var(--d);padding:0 10px}
-.copy{font-size:19px;line-height:1.6}
-.copy p{margin:0 0 20px}
-.copy .slogan{font-family:var(--fd);font-weight:var(--dw);font-size:32px;color:var(--p);margin:0}
-
 /* ===== Hero ===== */
 .hero {
     background: var(--p);
@@ -175,6 +166,14 @@ h1 {
     stroke-dashoffset: 1200;
     animation: draw 1800ms var(--eio) 500ms forwards;
 }
+/* ===== About ===== */
+.about{display:flex;flex-wrap:wrap;gap:56px}
+.about>div{flex:1 1 360px}
+h2{font-size:clamp(44px,6vw,96px);line-height:.95;margin-top:16px}
+mark{background:var(--a);color:var(--d);padding:0 10px}
+.copy{font-size:19px;line-height:1.6}
+.copy p{margin:0 0 20px}
+.copy .slogan{font-family:var(--fd);font-weight:var(--dw);font-size:32px;color:var(--p);margin:0}
 
 /* ===== Initiatives ===== */
 .band-accent{background:var(--a);color:var(--d)}
@@ -188,8 +187,6 @@ h1 {
 .card h3{font-size:30px;line-height:1}
 .card p{margin:0;font-size:16px;line-height:1.5}
 .k0{background:#fff;color:var(--ink)}.k1{background:var(--p);color:var(--pt)}.k2{background:var(--h);color:var(--ht)}.k3{background:var(--d);color:var(--a)}
-
-
 
 /* ===== Department ===== */
 .band-dark{background:var(--d);color:var(--dt)}
